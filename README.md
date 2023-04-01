@@ -2,7 +2,7 @@
 
 ![Hero](https://github.com/AntogamerYT/assets/raw/main/Hero.png)
 
-Initially made with [ShiSHcat](https://github.com/ShiSHcat) for private use to manage a proxmox server, then we decided to opensource it.
+Initially made with a friend for private use to manage a proxmox server, then we decided to opensource it.
 
 ## Requirements
 
