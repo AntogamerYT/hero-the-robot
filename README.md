@@ -7,14 +7,14 @@ Initially made with a friend for private use to manage a proxmox server, then we
 ## Requirements
 
 - Iptables, without it port forwarding won't work
-- Certbot, for SSL certificates
-- Nginx, to manage site forwarding (proxy_pass)
+- Certbot installed in the path, for SSL certificates
+- Nginx, to manage site forwarding (using proxy_pass)
 - NodeJS 16.9+
 
 ## Running the bot
 - First of all, fill the `.env.example` file with all the tokens and infos and rename it into `.env`
 tip: GUILD_ID will be the guild where the slash commands will be registered
-- (Not needed) open index.js and put your Discord ID to use the addsl and eval commands 
+- open index.js and put your Discord ID to use the addsl and eval commands 
 - Run `npm install` to install the required packages
 - Finally, run `node .`
 
